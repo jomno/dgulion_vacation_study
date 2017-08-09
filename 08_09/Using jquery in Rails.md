@@ -1,3 +1,7 @@
+---
+layout: post
+title: Using jquery in Rails
+---
 # Using jquery in Rails
 
 rails에서 jquery를 사용하는 방법
@@ -14,7 +18,7 @@ rails에서 jquery를 사용하는 방법
 ```
 
 기본적으로 포함되어 있는 부분
-주의해야 할 점은 추가적으로 부트스트랩이나 다른 여타 js 라이브러리 gem을 설치할 때 항상 **jquery_ujs** 밑에 설치해야함 
+주의해야 할 점은 추가적으로 부트스트랩이나 다른 여타 js 라이브러리 gem을 설치할 때 항상 **jquery_ujs** 밑에 설치해야함
 
 turbolinks의 역활은 header를 다시 안 불러오게 하기 위해서
 
@@ -30,7 +34,7 @@ tree .는 javascripts 폴더 안에 있는 내용들을 자동으로 불러오�
 
 ```javascript
 jQuery(function() {  
-  // commands go here 
+  // commands go here
 })
 ```
 
